@@ -18,7 +18,7 @@ public class UserController {
 	System.out.println();
 	System.out.println("user : " + user);
 	users.add(user);
-	return "index";
+	return "redirect:/list";
 	}
 
 	@GetMapping("/list")
