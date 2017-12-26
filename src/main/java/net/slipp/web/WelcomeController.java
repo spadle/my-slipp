@@ -12,7 +12,7 @@ public class WelcomeController {
 	
 	@GetMapping("/helloworld")
 	public String welcome(Model model) {
-		List<MyModel> repo = Arrays.asList(new MyModel("paul"), new MyModel("sung"), new MyModel("hey"));
+		List<MyModel> repo = Arrays.asList(new MyModel("paul"), new MyModel("sung"), new MyModel("hey"), new MyModel("testing List"));
 		model.addAttribute("repo", repo); 
 		return "welcome2";
 	}

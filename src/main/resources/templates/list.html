@@ -39,7 +39,7 @@
 				<form class="navbar-form navbar-left"></form>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="form.html">Sign Up</a></li>
-					<li><a href="/list">User List</a></li>
+					<li><a href="user/list.html">User List</a></li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="widget2.html">Coins</a></li>
@@ -61,7 +61,8 @@
               <tbody>
               	{{#users}}
                 <tr>
-                    <th scope="row">{{userId}}</td> 
+                    <th scope="row">{{id}}</th>
+                    <td>{{userId}}</td> 
                     <td>{{name}}</td> 
                     <td>{{email}}</td>
                 </tr>
